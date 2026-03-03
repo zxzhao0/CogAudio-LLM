@@ -10,6 +10,17 @@
 
 </div>
 
+<div align="center">
+  <img src="assets/fig2_pipline_page.jpg" alt="CogAudio-LLM Pipeline" width="90%">
+  <p><em>Figure 2: The pipeline of data generation and model training. Left: Construction of the LIME-440K dataset via semantic decoupling, EIPS CoT annotation, and expressive synthesis. Right: The three-stage training architecture of CogAudio-LLM, encompassing explicit reasoning SFT, implicit mixed-task internalization, and DR-SAPO dual-route alignment.</em></p>
+</div>
+
+This is the official repository for the paper **"Beyond Semantic Dominance: Cognitive Affective Reasoning and Empathetic Response Alignment in Audio Language Models"** (Submitted to INTERSPEECH 2026).
+
+**Dataset, model weights, and inference codes can be accessed anonymously at:** [https://anonymous.4open.science/r/CogAudio-LLM-4DFE/](https://anonymous.4open.science/r/CogAudio-LLM-4DFE/)
+
+
+
 This is the official repository for the paper **"Beyond Semantic Dominance: Cognitive Affective Reasoning and Empathetic Response Alignment in Audio Language Models"** (Submitted to INTERSPEECH 2026).
 
 ## 💡 Abstract
