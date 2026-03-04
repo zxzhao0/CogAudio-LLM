@@ -68,7 +68,7 @@ If you find our work or the LIME-440K dataset helpful, please consider citing ou
 }
 ```
 
-If you use **Part C** or **Part D** of our augmented dataset, please also cite the original authors:
+If you use **Part C** or **Part D** of our augmented dataset, please also cite the original papers:
 
 ```bibtex
 @inproceedings{liu2025towards,
