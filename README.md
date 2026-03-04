@@ -17,7 +17,7 @@
 
 This is the official repository for the paper **"Beyond Semantic Dominance: Cognitive Affective Reasoning and Empathetic Response Alignment in Audio Language Models"** (Submitted to INTERSPEECH 2026).
 
-**Dataset, model weights, and inference codes can be accessed anonymously at:** [https://anonymous.4open.science/r/CogAudio-LLM-4DFE/](https://anonymous.4open.science/r/CogAudio-LLM-4DFE/)
+**Dataset and model weights can be accessed anonymously at:** [https://anonymous.4open.science/r/CogAudio-LLM-4DFE/](https://anonymous.4open.science/r/CogAudio-LLM-4DFE/)
 
 ## 💡 Abstract
 While Audio Language Models (ALMs) excel at general semantic understanding, they struggle with deep affective interaction. Semantic dominance overshadows acoustic nuances like sarcasm, and a lack of cognitive depth yields generic, emotion-agnostic responses. We propose **CogAudio-LLM**, a novel cognitive affective reasoning framework. To overcome semantic bias, we build **LIME-440K**, a "lexically-identical, multi-emotion" dataset forcing acoustic-semantic decoupling. We introduce **EIPS** (Emotion Perception, Intent, Psychology, Strategy), a 4-step Chain-of-Thought (CoT) mechanism embedding psychological logic. Finally, we design **DR-SAPO** (Dual-Route Soft Adaptive Policy Optimization) to dynamically reward CoT logical rigor or direct response empathy.
