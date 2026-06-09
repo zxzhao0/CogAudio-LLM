@@ -23,7 +23,7 @@ While Audio Language Models (ALMs) demonstrate strong semantic understanding, th
 * **[2026.06]** Paper available on [Arxiv](https://arxiv.org/pdf/2606.06940v1).
 * **[2026.06]** Paper accepted by INTERSPEECH 2026.
 * **[2026.03]** Paper submitted to INTERSPEECH 2026.
-* **[2026.03]** LIME-440K dataset (Parts A & B) uploaded to HuggingFace (Currently private for blind review).
+* **[2026.03]** LIME-440K dataset (Parts A & B) uploaded to HuggingFace.
 
 ## 📊 Dataset: LIME-440K
 
