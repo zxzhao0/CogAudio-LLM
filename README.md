@@ -4,9 +4,8 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/Paper-Arxiv%20Link-blue)](#) 
-[![Dataset](https://img.shields.io/badge/Dataset-LIME--440K-green)](#) 
-[![Model](https://img.shields.io/badge/Model-HuggingFace-yellow)](#)
+[![Paper](https://img.shields.io/badge/Paper-Arxiv%20Link-blue)](https://arxiv.org/pdf/2606.06940v1) 
+[![Dataset](https://img.shields.io/badge/Dataset-LIME--440K-green)](https://huggingface.co/datasets/zhaoxiaoxian/LIME-440K_CogAudio-LLM) 
 
 </div>
 
@@ -15,14 +14,14 @@
   <p><em>Figure 2: The pipeline of data generation and model training. Left: Construction of the LIME-440K dataset via semantic decoupling, EIPS CoT annotation, and expressive synthesis. Right: The three-stage training architecture of CogAudio-LLM, encompassing explicit reasoning SFT, implicit mixed-task internalization, and DR-SAPO dual-route alignment.</em></p>
 </div>
 
-This is the official repository for the paper **"Beyond Semantic Dominance: Cognitive Affective Reasoning and Empathetic Response Alignment in Audio Language Models"** (Submitted to INTERSPEECH 2026).
-
-**Dataset and model weights can be accessed anonymously at:** [https://anonymous.4open.science/r/CogAudio-LLM-4DFE/](https://anonymous.4open.science/r/CogAudio-LLM-4DFE/)
+This is the official repository for the paper **"Beyond Semantic Dominance: Cognitive Affective Reasoning and Empathetic Response Alignment in Audio Language Models"** (Accepted by INTERSPEECH 2026).
 
 ## 💡 Abstract
 While Audio Language Models (ALMs) demonstrate strong semantic understanding, they struggle with complex affective interactions. Specifically, textual semantic dominance often overshadows acoustic nuances, and a lack of cognitive depth leads to generic, emotion-agnostic responses. We propose**CogAudio-LLM**, a novel cognitive affective reasoning framework. To mitigate semantic dominance, we build **LIME-440K**, a ``lexically-identical, multi-emotion'' dataset designed to facilitate acoustic-semantic decoupling. We introduce **EIPS** (Emotion Perception, Intent, Psychology, Strategy), a 4-step Chain-of-Thought (CoT) mechanism incorporating psychological reasoning. For inference efficiency, multi-step training explicitly establishes EIPS via SFT, then distills this logic into an implicit generation process. Finally, we design **DR-SAPO** (Dual-Route Soft Adaptive Policy Optimization) to dynamically balance the logical rigor of the CoT with the empathetic quality of the direct response.
 
 ## 🚀 News
+* **[2026.06]** Paper available on [Arxiv](https://arxiv.org/pdf/2606.06940v1).
+* **[2026.06]** Paper accepted by INTERSPEECH 2026.
 * **[2026.03]** Paper submitted to INTERSPEECH 2026.
 * **[2026.03]** LIME-440K dataset (Parts A & B) uploaded to HuggingFace (Currently private for blind review).
 
@@ -46,7 +45,7 @@ The dataset comprises approximately 440,000 speech utterances totaling roughly 4
 
 #### 1. LIME-Core (Parts A & B)
 A core subset covering 7 fine-grained emotions, constructed specifically using our semantic-acoustic decoupling strategy. 
-* 🔒 **Availability:** The data has been uploaded to HuggingFace, but access is currently **restricted** due to the ongoing anonymous peer review process for INTERSPEECH 2026. The public link will be released upon acceptance.
+* 🔓 **Availability:** The data has been uploaded to HuggingFace. You can access it here: [zhaoxiaoxian/LIME-440K_CogAudio-LLM](https://huggingface.co/datasets/zhaoxiaoxian/LIME-440K_CogAudio-LLM).
 
 #### 2. LIME-Aug (Parts C & D)
 An augmented subset that introduces and re-annotates open-source data (specifically, ECD-TSE and ESD) to expand speaker voices and mapping patterns, thereby enhancing model generalization. 
@@ -60,12 +59,14 @@ An augmented subset that introduces and re-annotates open-source data (specifica
 If you find our work or the LIME-440K dataset helpful, please consider citing our paper:
 
 ```bibtex
-@article{CogAudioLLM2026,
-  title={Beyond Semantic Dominance: Cognitive Affective Reasoning and Empathetic Response Alignment in Audio Language Models},
-  author={Anonymous Authors},
-  journal={Anonymous submission to Interspeech 2026},
-  year={2026}
+@misc{zhao2026beyond,
+  title={Beyond Semantic Dominance: Cognitive Affective Reasoning and Empathetic Response Alignment in Audio Language Models}, 
+  author={Zhixian Zhao and Shuiyuan Wang and  Wenjie Tian and Jingbin Hu and Ziyu Zhang and Lei Xie},
+  year={2026},
+  eprint={2606.06940},
+  archivePrefix={arXiv}
 }
+
 ```
 
 If you use **Part C** or **Part D** of our augmented dataset, please also cite the original papers:
